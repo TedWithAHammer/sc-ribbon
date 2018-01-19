@@ -8,6 +8,10 @@ public class RestResponse<T> extends BaseResponse {
 
     private T data;
 
+    public RestResponse() {
+        super();
+    }
+
     public RestResponse(T data) {
         super(0, "success");
         this.data = data;
