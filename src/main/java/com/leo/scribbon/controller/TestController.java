@@ -17,6 +17,6 @@ public class TestController {
 
     @GetMapping("/test")
     public RestResponse test() {
-        return new RestResponse<>(ribbonService.requestEurekaClient());
+        return ribbonService.requestEurekaClient();
     }
 }
