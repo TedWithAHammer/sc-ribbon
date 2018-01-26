@@ -23,6 +23,6 @@ public class RibbonService {
     }
 
     public RestResponse error() {
-        return new RestResponse<>(400, "接口暂不可用", null);
+        return new RestResponse<>(400, "接口暂不可用(RIBBON)", null);
     }
 }
